@@ -2,8 +2,7 @@
 
 
 
-### Ref : 
-https://www.burgerking.co.th/
+### Ref : https://www.burgerking.co.th/
 ---
 ### เนื้อหาของเว็บไซต์ :  ขายเครป 
 สามส่วนหลักๆ 
