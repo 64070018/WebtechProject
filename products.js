@@ -122,15 +122,15 @@ const products = [
     {
       "id": 16,
       "category": "ชุดสุดคุ้ม",
-      "menu": "เครป+น้ำผึ้งมะนาว",
+      "menu": "เครป-น้ำผึ้งมะนาว",
       "description": "เครปกรอบไส้ล้นทะลักฟิน ๆ คู่กับเครื่องดื่มเย็นสดชื่น",
-      "price": "ราคาเครป+15",
+      "price": "ราคาเครป-15",
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036304501138784326/Photo_Promo1.png"
     },
     {
       "id": 17,
       "category": "ชุดสุดคุ้ม",
-      "menu": "เครปหน้าไส้กรอก-ปูอัด พร้อมโตเกียวไข่+ปูอัด",
+      "menu": "เครปหน้าไส้กรอก-ปูอัด พร้อมโตเกียวไข่-ปูอัด",
       "description": "เอาใจคนรักปูอัด พลาดไม่ได้แม้แต่นาทีเดียว",
       "price": 45,
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036658675315646485/Photo_Promo4.png"
@@ -138,7 +138,7 @@ const products = [
     {
       "id": 18,
       "category": "ชุดสุดคุ้ม",
-      "menu": "เครป+โตเกียว+น้ำ",
+      "menu": "เครป-โตเกียว-น้ำ",
       "description": "เครปก็รัก โตเกียวก็ชอบ พร้อมน้ำให้สดชื่น บอกเลยพลาดไม่ได้",
       "price": "ลด20บาท",
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036308286334574612/Photo_Promo3.png"
@@ -250,7 +250,7 @@ const products = [
     {
       "id": 32,
       "category": "โตเกียว",
-      "menu": "ไข่+ปูอัด",
+      "menu": "ไข่-ปูอัด",
       "description": "เนื้อปูอัดแท้ กรอบอร่อยได้ในหนึ่งคำ",
       "price": 15,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092310320269970/detail/menueditor_item_665e3157b34d45bfbb2d2745c2c5d70b_1632392843095602067.webp"
@@ -258,7 +258,7 @@ const products = [
     {
       "id": 33,
       "category": "โตเกียว",
-      "menu": "ไข่+ไส้กรอก+หมูสับ",
+      "menu": "ไข่-ไส้กรอก-หมูสับ",
       "description": "ไส้ล้นทะลัก กับขนาดที่พอดีคำ",
       "price": 20,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021010815243293743/detail/menueditor_item_c45a9dbd8d3543f093a85d90545972f8_1610119394359688008.webp"
@@ -266,7 +266,7 @@ const products = [
     {
       "id": 34,
       "category": "โตเกียว",
-      "menu": "ไข่+พริกเผา",
+      "menu": "ไข่-พริกเผา",
       "description": "ปูอัดชิ้นโต พร้อมพริกเผารสจัดจ้านและไข่หอมอร่อย",
       "price": 15,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092212533356892/detail/menueditor_item_e71153cad1634acb97c902aa0bbca802_1633142550680976178.webp"
@@ -274,7 +274,7 @@ const products = [
     {
       "id": 35,
       "category": "โตเกียว",
-      "menu": "ช็อกโกแลต+ฝอยทอง",
+      "menu": "ช็อกโกแลต-ฝอยทอง",
       "description": "ได้รสช็อกเข้มข้น เหมาะกับคนชอบขนมหวาน",
       "price": 20,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092309212478159/detail/menueditor_item_2892431d1f9342c1860d6f5e7637c3fe_1632388737133234695.webp"
@@ -282,7 +282,7 @@ const products = [
     {
       "id": 36,
       "category": "โตเกียว",
-      "menu": "ไข่+หมูสับ",
+      "menu": "ไข่-หมูสับ",
       "description": "อร่อยง่ายๆด้วยหมูสับรสโอชา",
       "price": 15,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021010815211930458/detail/menueditor_item_fb438a68fe534208833041df2f1c9aaf_1617075491193694073.webp"
@@ -290,7 +290,7 @@ const products = [
     {
       "id": 37,
       "category": "โตเกียว",
-      "menu": "ไข่+พริกเผา",
+      "menu": "ไข่-พริกเผา",
       "description": "พริกเผารสเผ็ดร้อน คู่กับไข่ได้อย่างเข้ากัน",
       "price": 15,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021071606411787846/detail/menueditor_item_c200567efd4640f2b05a040e5f5bc8f6_1626417445833472426.webp"
@@ -306,7 +306,7 @@ const products = [
     {
       "id": 39,
       "category": "โตเกียว",
-      "menu": "ไข่+แฮม+หมูหยอง",
+      "menu": "ไข่-แฮม-หมูหยอง",
       "description": "เติมเต็มรสชาติหมูสูตรพิเศษ ที่รับประกันได้ว่ามันอร่อยมาก",
       "price": 20,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092213050919066/detail/menueditor_item_543924b7a53544d59ac77fa51ee938c2_1632321997979222749.webp"
@@ -314,7 +314,7 @@ const products = [
     {
       "id": 40,
       "category": "โตเกียว",
-      "menu": "วนิลา+ฝอยทอง",
+      "menu": "วนิลา-ฝอยทอง",
       "description": "รสวนิลาหอมอร่อย ที่ฟินให้สุดได้ในคำเดียว",
       "price": 15,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092310265170644/detail/menueditor_item_c8324fd384864f7eb0802cf7b68e47ed_1632392752414313591.webp"

@@ -473,6 +473,7 @@ footer{
 table {
     margin: auto;
     width: 60%;
+    letter-spacing: 0.5px;
 }
 
 td {
