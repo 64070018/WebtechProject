@@ -35,9 +35,9 @@ if (localStorage.getItem('CART').length > 3) {
         }
         else if (item.id == 19) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p></div>
-    <div class="info-price"><p id='ckeckout-menu'>${item.topPrice} x ${item.numberOfUnits} = ${count * item.topPrice}</p></div></div>
+    <div class="info-price"><p id='ckeckout-menu'>${item.price} x ${item.numberOfUnits} = ${count * item.price}</p></div></div>
             `
-            pricesum += count * item.topPrice;
+            pricesum += count * item.price;
         }
         else if (item.id == 20) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p><br>ไส้เครป : ${item.crape}</div>
@@ -82,4 +82,3 @@ function clearData() {
         alert("กรุณาเลือกสินค้าก่อนทำการสั่งซื้อ");
     }
 }
-

@@ -1,8 +1,10 @@
 let showMenu = document.querySelector('.contain');
 
+
 function addToCart(value) {
     showMenu.innerHTML = "";
-
+    document.querySelector('.footer').innerHTML = "";
+    
     products.forEach((product) => {
         if (product.id == value) {
             if (value <= 15) {
@@ -53,7 +55,7 @@ function addToCart(value) {
             <div class="picmenu">
                 <!-- left container -->
                 <img src="${product.img}" width="70%">
-                <br>
+                <br><br>
                 <label for="name"><b>${product.menu}</b></label><hr>
                 <br><label for="detail">${product.description}</label>
             </div>
@@ -116,7 +118,6 @@ function addToCart(value) {
                     <img src="https://media.discordapp.net/attachments/892267785244254229/1033705703786958868/bleach.png"
                         onclick="swax(1)" width="20px" align="right" id="drop1" class="dropdown">
                     <hr>
-
                     <div id="count">
                         <br>
                         จำนวน 1 ชุด
@@ -169,7 +170,7 @@ function addToCart(value) {
     <div class="picmenu">
         <!-- left container -->
         <img src="${product.img}" width="70%">
-        <br>
+        <br><br>
         <label for="name"><b>${product.menu}</b></label><hr>
         <br><br><label for="detail">${product.description}</label>
     </div>
@@ -194,7 +195,6 @@ function addToCart(value) {
     </div>
 </div>
 </div>
-
 `;
 
 
@@ -207,7 +207,7 @@ function addToCart(value) {
                     <img src="${product.img}" width="70%">
                     <br><br>
                     <label for="name"><b>${product.menu}</b></label><hr>
-                    <br>
+                    <br><br>
                     <label for="detail">${product.description}</label>
                 </div>
                 <div class="optionmain">
@@ -233,7 +233,6 @@ function addToCart(value) {
                 </div>
             </div>
         </div>
-
     `;
             }
             else if (value == 30) {
@@ -241,7 +240,7 @@ function addToCart(value) {
                     <div class="picmenu">
                         <!-- left container -->
                         <img src="${product.img}" width="70%">
-                        <br>
+                        <br><br>
    <br>                     <label for="name"><b>${product.menu}</b></label><hr>
                         <br>
                         <label for="detail">${product.description}</label>
@@ -265,7 +264,6 @@ function addToCart(value) {
                     </div>
                 </div>
                 </div>
-
                 `;
             }
             else {
@@ -274,9 +272,9 @@ function addToCart(value) {
             <div class="picmenu">
                 <!-- left container -->
                 <img src="${product.img}" width="70%">
-                <br>
+                <br><br>
                 <label for="name"><b>${product.menu}</b></label><hr>
-                <br><b             <label for="detail">${product.description}</label>
+                <br>    <label for="detail">${product.description}</label>
             </div>
             <div class="optionmain">
                 <!-- right container -->
@@ -347,4 +345,3 @@ function swax(a) {
         }
     }
 }
-

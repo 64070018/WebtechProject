@@ -19,21 +19,25 @@ function categoryProducts(value) {
     products.forEach((product) => {
         if (value == product.category) {
             shopContent.innerHTML += `
-        <div class="product-box">
-            <img src="${product.img}" class="product-img">
-            <h1 class="product-title">${product.menu}</h1>
-            <span class="price">${product.price} baht</span>
-            <i class="bx bx-shopping-bag add-cart" onclick="addToCart(${product.id})"></i>
+        <div class='product-box'>
+            <img src='${product.img}' class='product-img'>
+            <h1 class='product-title'>${product.menu}</h1>
+            <button onclick='addToCart(${product.id})' class='btn-price'>
+                <span class='price'>${product.price}</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </button>
         </div>
         `;
         }
         else if (value == "") {
             shopContent.innerHTML += `
-        <div class="product-box">
-            <img src="${product.img}" class="product-img">
-            <h1 class="product-title">${product.menu}</h1>
-            <span class="price">${product.price} baht</span>
-            <i class="bx bx-shopping-bag add-cart" onclick="addToCart(${product.id})"></i>
+        <div class='product-box'>
+            <img src='${product.img}' class='product-img'>
+            <h1 class='product-title'>${product.menu}</h1>
+            <button onclick='addToCart(${product.id})' class='btn-price'>
+                <span class='price'>${product.price}</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </button>
         </div>
             `;
         }
@@ -42,11 +46,13 @@ function categoryProducts(value) {
 function allProducts() {
     products.forEach((product) => {
         shopContent.innerHTML += `
-        <div class="product-box">
-            <img src="${product.img}" class="product-img">
-            <h1 class="product-title">${product.menu}</h1>
-            <span class="price">${product.price}</span>
-            <i class="bx bx-shopping-bag add-cart" onclick="addToCart(${product.id})"></i>
+        <div class='product-box'>
+            <img src='${product.img}' class='product-img'>
+            <h1 class='product-title'>${product.menu}</h1>
+            <button onclick='addToCart(${product.id})' class='btn-price'>
+                <span class='price'>${product.price}</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </button>
         </div>
     `
     });
@@ -54,6 +60,3 @@ function allProducts() {
 
 allProducts(
 );
-
-
-

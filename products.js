@@ -18,7 +18,7 @@ const products = [
     {
       "id": 3,
       "category": "เครป",
-      "menu": "ไข่-ปููอัด-หมูสับ",
+      "menu": "ไข่-ปูอัด-หมูสับ",
       "description": "ปูและหมูคลุกเคล้าไข่หอม ๆ",
       "price": 40,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021122216362687369/detail/menueditor_item_db131886b50b43c5baf001323c0b9071_1640190980303307200.webp"
@@ -146,7 +146,7 @@ const products = [
     {
       "id": 19,
       "category": "ชุดสุดคุ้ม",
-      "menu": "เครปหน้าไข่-แฮม-ไส้กรอก-ปูอัด-ชีส พร้อมอเมริกาโน",
+      "menu": "เครปหน้าไข่-แฮม-ไส้กรอก-ปูอัด-ชีส พร้อมอเมริกาโน่",
       "description": "ฟินๆช่วงเช้าให้สดชื่น เพิ่มพลังให้พร้อมสำหรับวันใหม่",
       "price": 100,
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036658675865108530/Photo_Promo5.png"

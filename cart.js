@@ -1653,17 +1653,15 @@ function renderCartItems() {
                         <p>ท้อปปิ้ง : ${item.topping}</p>
                     </div>
                 </div>
-
                 <div class="units">
                     <div class="unit-price">${money}baht </div>
                     <div class="cart-num">
-                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
-                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                         <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                     </div>
                 </div>
-
             </div>
             `
         }
@@ -1680,17 +1678,15 @@ function renderCartItems() {
                     <p>${item.sweet}</p>
                 </div>
             </div>
-
             <div class="units">
                 <div class="unit-price">${money}baht </div>
                 <div class="cart-num">
-                    <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                    <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                     <div class="number">${item.numberOfUnits}</div>
-                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                     <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                 </div>
             </div>
-
         </div>
             `
         }
@@ -1706,18 +1702,15 @@ function renderCartItems() {
                     <p>${item.sweet}</p>
                 </div>
             </div>
-
             <div class="units">
                 <div class="unit-price">${money}baht </div>
                 <div class="cart-num">
-                    <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
-                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                    <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                     <div class="number">${item.numberOfUnits}</div>
-                    <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
-
+                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
+                    <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                 </div>
             </div>
-
         </div>
             `
         }
@@ -1734,13 +1727,12 @@ function renderCartItems() {
                         <p>size : ${item.size}</p>
                     </div>
                 </div>
-
                 <div class="units">
                     <div class="unit-price">${money}baht </div>
                     <div class="cart-num">
-                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
-                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                         <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                     </div>
                 </div>
@@ -1759,17 +1751,15 @@ function renderCartItems() {
                         <p>เครป : ${item.crape}</p>
                     </div>
                 </div>
-
                 <div class="units">
                     <div class="unit-price">${money}baht </div>
                     <div class="cart-num">
-                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
-                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                         <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                     </div>
                 </div>
-
             </div>
         </div>
                 `
@@ -1787,13 +1777,12 @@ function renderCartItems() {
                     <p>น้ำ : ${item.water}</p>
                 </div>
             </div>
-
             <div class="units">
                     <div class="unit-price">${money}baht </div>
                     <div class="cart-num">
-                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
-                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                         <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                     </div>
                 </div>
@@ -1810,17 +1799,15 @@ function renderCartItems() {
                     <h4>${item.menu}</h4>
                 </div>
             </div>
-
             <div class="units">
                     <div class="unit-price">${money}baht </div>
                     <div class="cart-num">
-                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})">+</div>
+                        <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
-                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})">-</div>
+                        <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.ids})"><p class="text-cart">-</p></div>
                         <div class="bx bxs-trash-alt cart-remove" onclick="removeItemFromCart(${item.ids})"></div>
                     </div>
                 </div>
-
         </div>
                 `
         }

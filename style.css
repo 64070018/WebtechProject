@@ -19,11 +19,12 @@ body {
     --dark-color: #171427;
     --bg-color: #fcf8f2;
     --shadow: #868686;
-    --color1: #f1c36d;
+    --color1: #6f9971;
     --color2: #ffebcd;
     --color3: #fcd690;
-    --color4: rgb(223, 216, 216);
+    --color4: #dfd8d8;
     --color5: #76BA99;
+    --white: #fff;
 }
 
 header {
@@ -38,10 +39,11 @@ header {
     line-height: 80px;
     margin-right: 50px;
     font-size: 30px;
+    color: var(--white);
 }
 
 .fa-shopping-bag:hover {
-    color: var(--shadow);
+    color: var(--color5);
 }
 
 .text {
@@ -51,11 +53,12 @@ header {
 .text h1 {
     margin-left: 50px;
     margin-top: 15px;
-    color: #241d1d;
+    color: var(--white);
+    font-size: 2.0vw;
 }
 
 .text h1:hover {
-    color: var(--shadow);
+    color: var(--color5);
 }
 
 .slideshow {
@@ -93,24 +96,24 @@ header {
     float: left;
     font-size: 50px;
     margin-left: 50px;
-    color: var(--color4);
+    color: var(--color1);
     cursor: pointer;
 }
 
 .buttonleft:hover {
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .buttonright {
     float: right;
     font-size: 50px;
     margin-right: 50px;
-    color: var(--shadow);
+    color: var(--color1);
     cursor: pointer;
 }
 
 .buttonright:hover {
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .middle {
@@ -125,7 +128,7 @@ header {
 }
 
 .middle:hover {
-    background-color: white;
+    background-color: var(--color1);
 }
 
 .menubar {
@@ -152,7 +155,7 @@ header {
 
 .menubar a {
     text-decoration: none;
-    color: var(--dark-color);
+    color: var(--white);
     width: 10vw;
     display: block;
     padding: 10px 20px;
@@ -207,6 +210,7 @@ a {
     padding: 20px;
     box-shadow: 1px 10px 5px #534f4fcc;
     background-color: #fcf8f2cc;
+    /* height: 90%; */
 }
 
 .product-box:hover {
@@ -224,21 +228,33 @@ a {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    height: 5ch;
 }
-
 
 .add-cart {
-    position: relative;
+    font-size: 20px;
+    color: var(--white);
     float: right;
-    bottom: 0;
-    background-color: var(--dark-color);
-    color: var(--bg-color);
-    padding: 10px;
-    cursor: pointer;
+    margin-right: 10px;
 }
 
-.add-cart:hover {
-    background: var(--dark-color);
+.price {
+    font-size: 18px;
+    color: var(--white);
+}
+
+.btn-price {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.btn-price:hover {
+    background-color: var(--color5);
 }
 
 /*end shopping content*/
@@ -300,6 +316,7 @@ a {
     margin-top: 20px;
     margin-left: 20px;
     display: flex;
+    color: var(--dark-color);
 
 }
 
@@ -309,9 +326,10 @@ a {
 }
 
 .cart-img {
-    height: 80%;
+    height: auto;
     width: 40%;
     border-radius: 10%;
+    margin-bottom: 15px;
 }
 
 .units {
@@ -330,21 +348,31 @@ a {
 
 .minus,
 .plus {
-    height: 30%;
-    width: 30%;
+    height: 1vw;
+    width: 1vw;
     text-align: center;
     background-color: var(--color1);
+    color: var(--white);
     border-radius: 100%;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.text-cart {
+    line-height: 15px;
 }
 
 .number {
     margin-left: 5px;
     margin-right: 5px;
+    line-height: 15px;
+    font-size: 1vw;
 }
 
 .cart-remove {
     cursor: pointer;
+    line-height: 20px;
+    font-size: 1.25vw;
 }
 
 .total {
@@ -362,7 +390,7 @@ a {
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
     border: none;
-    background: var(--main-color);
+    background: var(--color1);
     color: var(--bg-color);
     font-size: 1rem;
     font-weight: 500;
@@ -371,7 +399,7 @@ a {
 }
 
 .btn-buy:hover {
-    background: var(--dark-color);
+    background: var(--color5);
 }
 
 @media screen and (max-width: 620px) {
@@ -411,25 +439,59 @@ a {
 
 
 .num {
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
-    background-color: var(--main-color);
-    color: var(--bg-color);
-    border-radius: 50%;
+    background-color: var(--color3);
+    color: var(--dark-color);
+    border-radius: 100%;
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 2px;
     padding-top: 2px;
-    right: 45px;
+    right: 40px;
     top: 20px;
-}
-
-footer {
-    background-color: var(--color5);
-    height: 100px;
 }
 
 .menu-container {
     box-shadow: 5px 5px 15px 1px var(--dark-color);
+}
+
+hr {
+    margin-top: 10px;
+}
+
+footer{
+    height: auto;
+    background-color: var(--color1);
+    box-shadow: 1px 2px 10px black;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+}
+
+td {
+    color: var(--white);
+}
+
+.footer-text {
+    color: var(--white);
+}
+
+.footer-text:hover {
+    color: var(--color5);
+}
+
+tr,
+td {
+    vertical-align: top;
+}
+
+.footer-header {
+    margin-bottom: 10px;
 }

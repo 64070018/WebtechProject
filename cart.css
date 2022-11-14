@@ -1,7 +1,7 @@
 * {
     font-family: 'Sarabun', sans-serif;
 }
-:root {
+/* :root {
     --main-color: #fd4646;
     --dark-color: #171427;
     --bg-color: #fcf8f2;
@@ -11,7 +11,7 @@
     --color3: #fcd690;
     --color4: rgb(223, 216, 216);
     --color5: #76BA99;
-}
+} */
 
 
 
@@ -53,6 +53,7 @@ header {
 .text h1 {
     margin-left: 50px;
     margin-top: 15px;
+    font-size: 2.0vw;
 }
 
 .txt {
@@ -74,6 +75,7 @@ header {
 
 .container h1 {
     line-height: 80px;
+    font-size: 2vw;
 }
 
 .container-2 {
@@ -89,24 +91,25 @@ header {
 
 .box{
     width:30%;
-    height: 100%;
-    background-color: var(--color3);
+    height: 80%;
+    background-color: var(--color5);
     float: right;
-    font-size: 20px;
+    font-size: 1.5vw;
+    color: white;
 }
 
 .submit {
     width: 20%;
     height: 10%;
-    background-color:var(--main-color) ;
+    background-color:var(--color1) ;
     color: white;
     border:none;
-    font-size: 20px;
+    font-size: 1.5vw;
     cursor: pointer;
 }
 
 .submit:hover {
-    background-color: var(--shadow);
+    background-color: var(--color5);
     color: white;
 }
 
@@ -116,13 +119,13 @@ a {
 }
 #ckeckout-menu{
     font-size: 1.5vw;
-    margin-bottom: -1vw;
+    color: var(--dark-color);
 }
 
 .info {
     display: inline-flex;
     width: 100%;
-    background-color: var(--color2);
+    background-color: var(--color3);
     border-bottom: 2px solid var(--color1);
 }
 
@@ -133,11 +136,13 @@ a {
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 1.0vw;
 }
 
 .info-price {
     width: 30%;
-    height: 100%;
+    height: auto;
     padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 10px;
 }
