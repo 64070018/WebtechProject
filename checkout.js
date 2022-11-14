@@ -8,26 +8,26 @@ if (localStorage.getItem('CART').length > 3) {
         var count = item.numberOfUnits;
         var price = item.price;
         if (item.id <= 15) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครป${item.menu}</p><br>แป้ง : ${item.flour}
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครป${item.menu}</p>แป้ง : ${item.flour}
     <br>ท้อปปิ้ง : ${item.topping}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
             pricesum += count * price;
         }
         else if (item.id == 16) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p><br>ไส้เครป : ${item.menu}</div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p>ไส้เครป : ${item.menu}</div>
     <div class="info-price"><p id='ckeckout-menu'>${item.topPrice} x ${item.numberOfUnits} = ${count * item.topPrice}</p></div></div>
             `
             pricesum += count * item.topPrice;
         }
         else if (item.id == 17) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p><br></div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p></div>
     <div class="info-price"><p id='ckeckout-menu'>${item.price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
             pricesum += count * price;
         }
         else if (item.id == 18) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p><br>ไส้เครป : ${item.crape}
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p>ไส้เครป : ${item.crape}
         <br>โตเกียว : ${item.tokyo}<br>น้ำ : ${item.water}</div>
     <div class="info-price"><p id='ckeckout-menu'>${item.topPrice} x ${item.numberOfUnits} = ${count * item.topPrice}</p></div></div>
             `
@@ -40,26 +40,26 @@ if (localStorage.getItem('CART').length > 3) {
             pricesum += count * item.price;
         }
         else if (item.id == 20) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p><br>ไส้เครป : ${item.crape}</div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p>ไส้เครป : ${item.crape}</div>
     <div class="info-price"><p id='ckeckout-menu'>${item.topPrice} x ${item.numberOfUnits} = ${count * item.topPrice}</p></div></div>
             `
             pricesum += count * item.topPrice;
         }
         else if (item.id <= 29) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p><br>ความหวาน : ${item.sweet}</div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p>ความหวาน : ${item.sweet}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
             pricesum += price;
 
         }
         else if (item.id == 30) {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p><br>${item.sweet}</div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p>${item.sweet}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
             pricesum += price;
 
         } else {
-            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>โตเกียว${item.menu}</p><br>ขนาด   : ${item.size}</div>
+            info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>โตเกียว${item.menu}</p>ขนาด : ${item.size}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
             pricesum += price;
