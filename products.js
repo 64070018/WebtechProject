@@ -59,7 +59,7 @@ const products = [
       "id": 8,
       "category": "เครป",
       "menu": "แฮม-หมูหยอง",
-      "description": "2เนื้อหมูยอดนิยม ใครได้กินก็ฟินจนต้องบอกต่อ",
+      "description": "สองเนื้อหมูยอดนิยม ใครได้กินก็ฟินจนต้องบอกต่อ",
       "price": 25,
       "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2020040502020943244/detail/menueditor_item_33f1793834fd41d89849635df771e880_1586052036634853646.webp"
     },
@@ -124,7 +124,7 @@ const products = [
       "category": "ชุดสุดคุ้ม",
       "menu": "เครป-น้ำผึ้งมะนาว",
       "description": "เครปกรอบไส้ล้นทะลักฟิน ๆ คู่กับเครื่องดื่มเย็นสดชื่น",
-      "price": "ราคาเครป-15",
+      "price": "ลดราคาเครป 15 บาท",
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036304501138784326/Photo_Promo1.png"
     },
     {
@@ -140,7 +140,7 @@ const products = [
       "category": "ชุดสุดคุ้ม",
       "menu": "เครป-โตเกียว-น้ำ",
       "description": "เครปก็รัก โตเกียวก็ชอบ พร้อมน้ำให้สดชื่น บอกเลยพลาดไม่ได้",
-      "price": "ลด20บาท",
+      "price": "ลด 20 บาท",
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036308286334574612/Photo_Promo3.png"
     },
     {
@@ -154,9 +154,9 @@ const products = [
     {
       "id": 20,
       "category": "ชุดสุดคุ้ม",
-      "menu": "เครป1ชิ้น",
+      "menu": "เครป 1 ชิ้น",
       "description": "อันเดียวไม่เคยพอ เพราะอร่อยฟินจนอยากกินต่อเรื่อย ๆ",
-      "price": "แถม1ชิ้น(รสเดียวกัน)",
+      "price": "แถม 1 ชิ้น (รสเดียวกัน)",
       "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036305075200594051/Photo_Promo2.png"
     },
     {
