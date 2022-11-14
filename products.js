@@ -5,10 +5,7 @@ const products = [
     "menu": "แฮม-ไส้กรอก-หมูหยอง",
     "description": "เนื้อเน้นๆ คนรักเนื้อห้ามพลาด",
     "price": 40,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2022031112404803261/detail/menueditor_item_265e7531d39043988cf5be860a1a9e0c_1647002406907814200.webp",
-    "Vanila": "วนิลา",
-    "Charcoal" : "ชาลโคล",
-    "TwoTone" : "ทูโทน"
+    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2022031112404803261/detail/menueditor_item_265e7531d39043988cf5be860a1a9e0c_1647002406907814200.webp"
   },
   {
     "id": 2,
@@ -16,10 +13,7 @@ const products = [
     "menu": "ช็อกโกแลต-กล้วย-ฝอยทอง",
     "description": "ใครเลิฟกล้วยช็อค บอกเลยต้องลอง",
     "price": 45,
-    "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1029762938388615228/unknown.png",
-    "Vanila": "วนิลา",
-    "Charcoal" : "ชาลโคล",
-    "TwoTone" : "ทูโทน"
+    "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1029762938388615228/unknown.png"
   },
   {
     "id": 3,
@@ -88,7 +82,7 @@ const products = [
   {
     "id": 11,
     "category": "เครป",
-    "menu": "ผักโขม-แฮม-ไข่ดาว",
+    "menu": "ผักโขม-แฮม-ไข่",
     "description": "รสผักโขมเย้ายวนใจ",
     "price": 40,
     "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1029763186473316462/unknown.png"
@@ -136,7 +130,7 @@ const products = [
   {
     "id": 17,
     "category": "ชุดสุดคุ้ม",
-    "menu": "เครป:ไส้กรอก-ปูอัด + โต:ไข่+ปูอัด",
+    "menu": "เครปหน้าไส้กรอก-ปูอัด พร้อมโตเกียวไข่+ปูอัด",
     "description": "เอาใจคนรักปูอัด พลาดไม่ได้แม้แต่นาทีเดียว",
     "price": 45,
     "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036658675315646485/Photo_Promo4.png"
@@ -152,7 +146,7 @@ const products = [
   {
     "id": 19,
     "category": "ชุดสุดคุ้ม",
-    "menu": "ไข่-แฮม-ไส้กรอก-ปูอัด-ชีส+อเมริกาโน",
+    "menu": "เครปหน้าไข่-แฮม-ไส้กรอก-ปูอัด-ชีส พร้อมอเมริกาโน",
     "description": "ฟินๆช่วงเช้าให้สดชื่น เพิ่มพลังให้พร้อมสำหรับวันใหม่",
     "price": 100,
     "img": "https://cdn.discordapp.com/attachments/1019574801557364837/1036658675865108530/Photo_Promo5.png"
@@ -168,10 +162,10 @@ const products = [
   {
     "id": 21,
     "category": "เครื่องดื่ม",
-    "menu": "ลาเต้",
+    "menu": "ลาเต้เย็น",
     "description": "เพลิดเพลินไปกับรสลาเต้หอม นุ่ม ละมุนลิ้น",
     "price": 50,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021042109261691695/detail/menueditor_item_49385deb0d8c4c21a72e98ef4f84f458_1618997138141210432.webp"
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/42.ICED-LATTE1080.png"
   },
   {
     "id": 22,
@@ -179,23 +173,23 @@ const products = [
     "menu": "ชานมเย็น",
     "description": "ชานมรสละมุนลิ้น กลมกล่อมเป็นที่หนึ่ง",
     "price": 25,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021101906135326019/detail/menueditor_item_90f8863c889641278bd9a25e19e6ada5_1636942467385086413.webp"
+    "img": "https://www.starbucks.co.th/stb-media/2022/01/Winter2022_Web_Iced-golden-monkey-latte_GreenBG-600x600.jpg"
   },
   {
     "id": 23,
     "category": "เครื่องดื่ม",
-    "menu": "ชาเขียว",
+    "menu": "มัทฉะลาเต้",
     "description": "สัมผัสกับชาเขียวรสเข้มข้น",
     "price": 25,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE20220905151221024833/detail/b6debf7b_09e166ed32f9.webp"
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/81.Iced-Green-Tea-Latte1080.png"
   },
   {
     "id": 24,
     "category": "เครื่องดื่ม",
-    "menu": "โกโก้",
-    "description": "หอมกลิ่มโกโก้แท้ แฟนโกโก้ห้ามพลาด",
-    "price": 25,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2022050410202434904/detail/menueditor_item_3fe48816b34142b29b57b135a5a5cb7f_1655139321410982919.webp"
+    "menu": "ช็อกโกแลตเย็น",
+    "description": "หอมกลิ่มช็อกโกแลตแท้ แฟนช็อกโกแลตห้ามพลาด",
+    "price": 45,
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/87.Iced-Signature-Chocolate1080.png"
   },
   {
     "id": 25,
@@ -203,7 +197,7 @@ const products = [
     "menu": "ชามะนาว",
     "description": "ชามะนาวรสเปรี้ยว หวาน เย็นชื่นใจ",
     "price": 20,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE20220905151230071501/detail/4768a395_3ea127291f9f.webp"
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/74.Ice-Shaken-Lemon-Tea1080.png"
   },
   {
     "id": 26,
@@ -211,7 +205,7 @@ const products = [
     "menu": "น้ำมะนาว",
     "description": "น้ำมะนาวแท้ ดับกระหาย คลายร้อน",
     "price": 25,
-    "img": "https://www.ajinomotofoodservicethailand.com/wp-content/uploads/2022/01/batch.jpg"
+    "img": "https://globalassets.starbucks.com/assets/b5d9c74a812a4b46b2a100baed559f84.jpg?impolicy=1by1_wide_topcrop_630"
   },
   {
     "id": 27,
@@ -219,23 +213,23 @@ const products = [
     "menu": "อเมริกาโน",
     "description": "ดื่มด่ำกาแฟรสเข้มข้น กลมกล่อม",
     "price": 60,
-    "img": "https://d1sag4ddilekf6.azureedge.net/compressed/items/THITE20220905151147038410/photo/7c0b93b0_3cf76d5000f0.png"
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/40.Iced-Caffe-Americano1080.png"
   },
   {
     "id": 28,
     "category": "เครื่องดื่ม",
-    "menu": "น้ำอัดลม",
-    "description": "ซาบซ่าน ชื่นใจจนลืมร้อน",
+    "menu": "นมสดเย็น",
+    "description": "นมวัวชั้นเยี่ยมสดๆ รสนุ่มละมุ่นดื่มแล้วจะต้องติดใจ",
     "price": 20,
-    "img": "https://fit-d.com/uploads/food/a3e53414c16884a2f78efbd8bd9dc5e7.jpeg"
+    "img": "https://www.starbucks.co.th/stb-media/2020/08/86.Iced_Milk1080.png"
   },
   {
     "id": 29,
     "category": "เครื่องดื่ม",
-    "menu": "น้ำผึ้งมะนาว",
-    "description": "ที่สุดของน้ำมะนาวผสมน้ำผึ้งที่อร่อยไม่เหมือนใคร",
+    "menu": "น้ำอัดลม",
+    "description": "ซาบซ่าน ชื่นใจจนลืมร้อน",
     "price": 25,
-    "img": "https://img.kapook.com/u/2015/surauch/cook2/e1.jpg"
+    "img": "https://media.discordapp.net/attachments/892267785244254229/1041463869748543560/Picture2.png?width=790&height=703"
   },
   {
     "id": 30,
@@ -243,13 +237,13 @@ const products = [
     "menu": "น้ำเปล่า",
     "description": "สดชื่น ชื่นใจ",
     "price": 15,
-    "img": "https://st.bigc-cs.com/public/media/catalog/product/47/88/8851952350147/8851952350147.jpg"
+    "img": "https://media.discordapp.net/attachments/892267785244254229/1041460811475980288/f6568f31bc13e792.png?width=790&height=703"
   },
   {
     "id": 31,
     "category": "โตเกียว",
     "menu": "ไส้ครีม",
-    "description": "",
+    "description": "ครีมเน้นๆ อร่อยถึงใจ",
     "price": 5,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092304334771871/detail/menueditor_item_bca279f1d5f94ebf971ca07b47d3a465_1632414517596097204.webp"
   },
@@ -257,7 +251,7 @@ const products = [
     "id": 32,
     "category": "โตเกียว",
     "menu": "ไข่+ปูอัด",
-    "description": "",
+    "description": "เนื้อปูอัดแท้ กรอบอร่อยได้ในหนึ่งคำ",
     "price": 15,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092310320269970/detail/menueditor_item_665e3157b34d45bfbb2d2745c2c5d70b_1632392843095602067.webp"
   },
@@ -265,7 +259,7 @@ const products = [
     "id": 33,
     "category": "โตเกียว",
     "menu": "ไข่+ไส้กรอก+หมูสับ",
-    "description": "",
+    "description": "ไส้ล้นทะลัก กับขนาดที่พอดีคำ",
     "price": 20,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021010815243293743/detail/menueditor_item_c45a9dbd8d3543f093a85d90545972f8_1610119394359688008.webp"
   },
@@ -273,7 +267,7 @@ const products = [
     "id": 34,
     "category": "โตเกียว",
     "menu": "ไข่+พริกเผา",
-    "description": "",
+    "description": "ปูอัดชิ้นโต พร้อมพริกเผารสจัดจ้านและไข่หอมอร่อย",
     "price": 15,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092212533356892/detail/menueditor_item_e71153cad1634acb97c902aa0bbca802_1633142550680976178.webp"
   },
@@ -281,7 +275,7 @@ const products = [
     "id": 35,
     "category": "โตเกียว",
     "menu": "ช็อกโกแลต+ฝอยทอง",
-    "description": "",
+    "description": "ได้รสช็อกเข้มข้น เหมาะกับคนชอบขนมหวาน",
     "price": 20,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092309212478159/detail/menueditor_item_2892431d1f9342c1860d6f5e7637c3fe_1632388737133234695.webp"
   },
@@ -289,7 +283,7 @@ const products = [
     "id": 36,
     "category": "โตเกียว",
     "menu": "ไข่+หมูสับ",
-    "description": "",
+    "description": "อร่อยง่ายๆด้วยหมูสับรสโอชา",
     "price": 15,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021010815211930458/detail/menueditor_item_fb438a68fe534208833041df2f1c9aaf_1617075491193694073.webp"
   },
@@ -297,7 +291,7 @@ const products = [
     "id": 37,
     "category": "โตเกียว",
     "menu": "ไข่+พริกเผา",
-    "description": "",
+    "description": "พริกเผารสเผ็ดร้อน คู่กับไข่ได้อย่างเข้ากัน",
     "price": 15,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021071606411787846/detail/menueditor_item_c200567efd4640f2b05a040e5f5bc8f6_1626417445833472426.webp"
   },
@@ -305,7 +299,7 @@ const products = [
     "id": 38,
     "category": "โตเกียว",
     "menu": "ไส้สังขยา",
-    "description": "",
+    "description": "สังขยาหวานอร่อย ด้วยราคาที่แสนถูก",
     "price": 5,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021010815154464687/detail/menueditor_item_329ffaafcc344e6dac1f99585d339366_1610118906217604733.webp"
   },
@@ -313,7 +307,7 @@ const products = [
     "id": 39,
     "category": "โตเกียว",
     "menu": "ไข่+แฮม+หมูหยอง",
-    "description": "",
+    "description": "เติมเต็มรสชาติหมูสูตรพิเศษ ที่รับประกันได้ว่ามันอร่อยมาก",
     "price": 20,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092213050919066/detail/menueditor_item_543924b7a53544d59ac77fa51ee938c2_1632321997979222749.webp"
   },
@@ -321,7 +315,7 @@ const products = [
     "id": 40,
     "category": "โตเกียว",
     "menu": "วนิลา+ฝอยทอง",
-    "description": "",
+    "description": "รสวนิลาหอมอร่อย ที่ฟินให้สุดได้ในคำเดียว",
     "price": 15,
     "img": "https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/THITE2021092310265170644/detail/menueditor_item_c8324fd384864f7eb0802cf7b68e47ed_1632392752414313591.webp"
   }
