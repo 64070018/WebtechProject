@@ -459,9 +459,10 @@ a {
 
 hr {
     margin-top: 10px;
+    border: 1px solid var(--shadow);
 }
 
-footer{
+footer {
     height: auto;
     background-color: var(--color1);
     box-shadow: 1px 2px 10px black;
@@ -495,4 +496,19 @@ td {
 
 .footer-header {
     margin-bottom: 10px;
+}
+
+input {
+    cursor: pointer;
+    font-size: 22px;
+    accent-color: var(--color1);
+}
+
+[type=radio],
+[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    border: solid 1px var(--color5);
+    margin-right: 8px;
+    position: relative;
 }
