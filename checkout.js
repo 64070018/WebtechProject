@@ -10,9 +10,9 @@ if (localStorage.getItem('CART').length > 3) {
         if (item.id <= 15) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครป${item.menu}</p>แป้ง : ${item.flour}
     <br>ท้อปปิ้ง : ${item.topping}</div>
-    <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
+    <div class="info-price"><p id='ckeckout-menu'>${price+item.topPrice} x ${item.numberOfUnits} = ${count * (item.topPrice+price)}</p></div></div>
             `
-            pricesum += count * price;
+            pricesum += count * (item.topPrice+price);
         }
         else if (item.id == 16) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>ชุดสุดคุ้ม ${item.menu}</p>ไส้เครป : ${item.menu}</div>
@@ -58,11 +58,11 @@ if (localStorage.getItem('CART').length > 3) {
             `
             pricesum += price;
 
-        } else {
+        } else if (item.id > 30){
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>โตเกียว${item.menu}</p>ขนาด : ${item.size}</div>
-    <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
+    <div class="info-price"><p id='ckeckout-menu'>${item.topPrice+price} x ${item.numberOfUnits} = ${count * (item.topPrice+price)}</p></div></div>
             `
-            pricesum += price;
+            pricesum += (item.topPrice+price);
         }
     })
 } else {
