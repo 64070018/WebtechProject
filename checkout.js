@@ -2,6 +2,8 @@ let info = document.querySelector('.container-2');
 let sum = document.querySelector('.box');
 var pricesum = 0;
 var forCheck = localStorage.getItem('CART');
+let cartt = document.querySelector('.cart');
+cartt.style.display = "none";
 
 if (localStorage.getItem('CART').length > 3) {
     carts.forEach((item) => {
