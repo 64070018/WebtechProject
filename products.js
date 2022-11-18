@@ -18,7 +18,7 @@ const products = [
   {
     "id": 3,
     "category": "เครป",
-    "menu": "ไข่-ปููอัด-หมูสับ",
+    "menu": "ไข่-ปูอัด-หมูสับ",
     "description": "ปูและหมูคลุกเคล้าไข่หอม ๆ",
     "price": 40,
     "img": "./img/crape3.webp"
