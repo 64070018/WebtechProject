@@ -24,10 +24,10 @@ function addCart(id) {
             if (cheese.checked && rainbow.checked && mashmellow.checked && jelly.checked) {
                 carts.push({
                     ...item,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow, jelly",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่, เยลลี่",
                     topPrice: 25,
                 })
             }
@@ -35,20 +35,20 @@ function addCart(id) {
             else if (cheese && rainbow && mashmellow) {
                 carts.push({
                     ...item,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่",
                     topPrice: 20,
                 })
             }
             else if (cheese && rainbow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, jelly",
+                    topping: "ชีส, เรนโบว์, เยลลี่",
                     topPrice: 20,
                 })
 
@@ -56,10 +56,10 @@ function addCart(id) {
             else if (cheese && mashmellow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, mashmellow, jelly",
+                    topping: "ชีส, มาชเมลโล่, เยลลี่",
                     topPrice: 20,
                 })
             }
@@ -67,40 +67,40 @@ function addCart(id) {
                 if (rainbow) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbow",
+                        topping: "ชีส, เรนโบว์",
                         topPrice: 15,
                     })
                 }
                 else if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, mashmellow",
+                        topping: "ชีส, มาชเมลโล่",
                         topPrice: 15,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbox",
+                        topping: "ชีส, เยลลี่",
                         topPrice: 15,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese",
+                        topping: "ชีส",
                         topPrice: 10,
                     })
                 }
@@ -109,27 +109,27 @@ function addCart(id) {
                 if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, mashmellow",
+                        topping: "เรนโบว์, มาชเมลโล่",
                         topPrice: 10,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, jelly",
+                        topping: "เรนโบว์, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "เรนโบว์",
@@ -141,17 +141,17 @@ function addCart(id) {
                 if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "mashmellow, jelly",
+                        topping: "มาชเมลโล่, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "vanila",
+                        flour: "วนิลา",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "มาชเมลโล่",
@@ -162,7 +162,7 @@ function addCart(id) {
             else if (jelly) {
                 carts.push({
                     ...item,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     numberOfUnits: 1,
                     ids: Math.random(),
                     topping: "เยลลี่",
@@ -174,7 +174,7 @@ function addCart(id) {
                 carts.push({
                     ...item,
                     numberOfUnits: 1,
-                    flour: "vanila",
+                    flour: "วนิลา",
                     ids: Math.random(),
                     topping: "ไม่มี",
                     topPrice: 0,
@@ -187,10 +187,10 @@ function addCart(id) {
             if (cheese.checked && rainbow.checked && mashmellow.checked && jelly.checked) {
                 carts.push({
                     ...item,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow, jelly",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่, เยลลี่",
                     topPrice: 25,
                 })
             }
@@ -198,20 +198,20 @@ function addCart(id) {
             else if (cheese && rainbow && mashmellow) {
                 carts.push({
                     ...item,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่",
                     topPrice: 20,
                 })
             }
             else if (cheese && rainbow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, jelly",
+                    topping: "ชีส, เรนโบว์, เยลลี่",
                     topPrice: 20,
                 })
 
@@ -219,10 +219,10 @@ function addCart(id) {
             else if (cheese && mashmellow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, mashmellow, jelly",
+                    topping: "ชีส, มาชเมลโล่, เยลลี่",
                     topPrice: 20,
                 })
             }
@@ -230,40 +230,40 @@ function addCart(id) {
                 if (rainbow) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbow",
+                        topping: "ชีส, เรนโบว์",
                         topPrice: 15,
                     })
                 }
                 else if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, mashmellow",
+                        topping: "ชีส, มาชเมลโล่",
                         topPrice: 15,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbox",
+                        topping: "ชีส, เยลลี่",
                         topPrice: 15,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese",
+                        topping: "ชีส",
                         topPrice: 10,
                     })
                 }
@@ -272,27 +272,27 @@ function addCart(id) {
                 if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, mashmellow",
+                        topping: "เรนโบว์, มาชเมลโล่",
                         topPrice: 10,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, jelly",
+                        topping: "เรนโบว์, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "เรนโบว์",
@@ -304,17 +304,17 @@ function addCart(id) {
                 if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "mashmellow, jelly",
+                        topping: "มาชเมลโล่, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Charcoal",
+                        flour: "ชาโคล",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "มาชเมลโล่",
@@ -325,7 +325,7 @@ function addCart(id) {
             else if (jelly) {
                 carts.push({
                     ...item,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     numberOfUnits: 1,
                     ids: Math.random(),
                     topping: "เยลลี่",
@@ -336,7 +336,7 @@ function addCart(id) {
                 carts.push({
                     ...item,
                     numberOfUnits: 1,
-                    flour: "Charcoal",
+                    flour: "ชาโคล",
                     ids: Math.random(),
                     topping: "ไม่มี",
                     topPrice: 0,
@@ -352,10 +352,10 @@ function addCart(id) {
             if (cheese.checked && rainbow.checked && mashmellow.checked && jelly.checked) {
                 carts.push({
                     ...item,
-                    flour: "Twotone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow, jelly",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่, เยลลี่",
                     topPrice: 25,
                 })
             }
@@ -363,20 +363,20 @@ function addCart(id) {
             else if (cheese && rainbow && mashmellow) {
                 carts.push({
                     ...item,
-                    flour: "Twotone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, mashmellow",
+                    topping: "ชีส, เรนโบว์, มาชเมลโล่",
                     topPrice: 20,
                 })
             }
             else if (cheese && rainbow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "Twotone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, rainbow, jelly",
+                    topping: "ชีส, เรนโบว์, เยลลี่",
                     topPrice: 20,
                 })
 
@@ -384,10 +384,10 @@ function addCart(id) {
             else if (cheese && mashmellow && jelly) {
                 carts.push({
                     ...item,
-                    flour: "Twotone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
-                    topping: "cheese, mashmellow, jelly",
+                    topping: "ชีส, มาชเมลโล่, เยลลี่",
                     topPrice: 20,
                 })
             }
@@ -395,40 +395,40 @@ function addCart(id) {
                 if (rainbow) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbow",
+                        topping: "ชีส, เรนโบว์",
                         topPrice: 15,
                     })
                 }
                 else if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, mashmellow",
+                        topping: "ชีส, มาชเมลโล่",
                         topPrice: 15,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese, rainbox",
+                        topping: "ชีส, เยลลี่",
                         topPrice: 15,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "cheese",
+                        topping: "ชีส",
                         topPrice: 10,
                     })
                 }
@@ -437,27 +437,27 @@ function addCart(id) {
                 if (mashmellow) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, mashmellow",
+                        topping: "เรนโบว์, มาชเมลโล่",
                         topPrice: 10,
                     })
                 }
                 else if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "rainbow, jelly",
+                        topping: "เรนโบว์, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "เรนโบว์",
@@ -469,17 +469,17 @@ function addCart(id) {
                 if (jelly) {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
-                        topping: "mashmellow, jelly",
+                        topping: "มาชเมลโล่, เยลลี่",
                         topPrice: 10,
                     })
                 }
                 else {
                     carts.push({
                         ...item,
-                        flour: "Twotone",
+                        flour: "ทูโทน",
                         numberOfUnits: 1,
                         ids: Math.random(),
                         topping: "มาชเมลโล่",
@@ -490,7 +490,7 @@ function addCart(id) {
             else if (jelly) {
                 carts.push({
                     ...item,
-                    flour: "Twotone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
                     topping: "เยลลี่",
@@ -500,7 +500,7 @@ function addCart(id) {
             else {
                 carts.push({
                     ...item,
-                    flour: "TwoTone",
+                    flour: "ทูโทน",
                     numberOfUnits: 1,
                     ids: Math.random(),
                     topping: "ไม่มี",
@@ -512,7 +512,7 @@ function addCart(id) {
         else {
             carts.push({
                 ...item,
-                flour: "Vanila",
+                flour: "วนิลา",
                 numberOfUnits: 1,
                 ids: Math.random(),
                 topping: "ไม่มี",
@@ -1621,7 +1621,7 @@ function renderSubtotal() {
             totalItem += item.numberOfUnits;
         }
     });
-    subPrice.innerHTML = `Total : ${totalPrice} baht  item : ${totalItem}`;
+    subPrice.innerHTML = `รวม  ${totalPrice}  บาท ทั้งหมด ${totalItem} ชิ้น`;
 
     if(totalItem == 0){
         num.style.display = "none";
@@ -1654,7 +1654,7 @@ function renderCartItems() {
                     </div>
                 </div>
                 <div class="units">
-                    <div class="unit-price">${money}baht </div>
+                    <div class="unit-price">${money} บาท </div>
                     <div class="cart-num">
                         <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
@@ -1679,7 +1679,7 @@ function renderCartItems() {
                 </div>
             </div>
             <div class="units">
-                <div class="unit-price">${money}baht </div>
+                <div class="unit-price">${money} บาท </div>
                 <div class="cart-num">
                     <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                     <div class="number">${item.numberOfUnits}</div>
@@ -1703,7 +1703,7 @@ function renderCartItems() {
                 </div>
             </div>
             <div class="units">
-                <div class="unit-price">${money}baht </div>
+                <div class="unit-price">${money} บาท </div>
                 <div class="cart-num">
                     <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                     <div class="number">${item.numberOfUnits}</div>
@@ -1728,7 +1728,7 @@ function renderCartItems() {
                     </div>
                 </div>
                 <div class="units">
-                    <div class="unit-price">${money}baht </div>
+                    <div class="unit-price">${money} บาท </div>
                     <div class="cart-num">
                         <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
@@ -1752,7 +1752,7 @@ function renderCartItems() {
                     </div>
                 </div>
                 <div class="units">
-                    <div class="unit-price">${money}baht </div>
+                    <div class="unit-price">${money} บาท </div>
                     <div class="cart-num">
                         <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
@@ -1778,7 +1778,7 @@ function renderCartItems() {
                 </div>
             </div>
             <div class="units">
-                    <div class="unit-price">${money}baht </div>
+                    <div class="unit-price">${money} บาท </div>
                     <div class="cart-num">
                         <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
@@ -1800,7 +1800,7 @@ function renderCartItems() {
                 </div>
             </div>
             <div class="units">
-                    <div class="unit-price">${money}baht </div>
+                    <div class="unit-price">${money} บาท </div>
                     <div class="cart-num">
                         <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.ids})"><p class="text-cart">+</p></div>
                         <div class="number">${item.numberOfUnits}</div>
