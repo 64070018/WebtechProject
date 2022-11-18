@@ -51,20 +51,20 @@ if (localStorage.getItem('CART').length > 3) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p>ความหวาน : ${item.sweet}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
-            pricesum += price;
+            pricesum += count * price;
 
         }
         else if (item.id == 30) {
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>เครื่องดื่ม ${item.menu}</p>${item.sweet}</div>
     <div class="info-price"><p id='ckeckout-menu'>${price} x ${item.numberOfUnits} = ${count * price}</p></div></div>
             `
-            pricesum += price;
+            pricesum += count * price;
 
         } else if (item.id > 30){
             info.innerHTML += `<div class="info"><div class="info-menu"><p id='ckeckout-menu'>โตเกียว${item.menu}</p>ขนาด : ${item.size}</div>
     <div class="info-price"><p id='ckeckout-menu'>${item.topPrice+price} x ${item.numberOfUnits} = ${count * (item.topPrice+price)}</p></div></div>
             `
-            pricesum += (item.topPrice+price);
+            pricesum += count * (item.topPrice+price);
         }
     })
 } else {
